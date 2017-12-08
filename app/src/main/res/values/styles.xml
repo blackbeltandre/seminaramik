@@ -1,0 +1,42 @@
+<resources>
+<style name="MyMaterialTheme" parent="MyMaterialTheme.Base">
+</style>
+    <style name="SplassScreenCustom" parent="Theme.AppCompat.NoActionBar"/>
+<style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">false</item>
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+</style>
+    <style name="Divider">
+        <item name="android:layout_width">1dip</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/colorAccent</item>
+    </style>
+
+
+    <style name="CustomTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#00A4E4</item>
+        <item name="colorPrimaryDark">#AB0634</item>
+        <item name="colorAccent">#AB0634</item>
+        <item name="toolbar_theme">@style/CustomTheme.Toolbar</item>
+        <item name="toolbar_theme_title">@style/CustomTheme.Toolbar.Title</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryDark</item>
+        <item name="android:textColorSecondary">@android:color/black</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+
+    <style name="CustomTheme.Toolbar" parent="ThemeOverlay.AppCompat.ActionBar">
+        <!-- if you have a navigationdrawer you change it color also -->
+        <item name="colorControlNormal">#AB0634</item>
+    </style>
+
+    <style name="CustomTheme.Toolbar.Title" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <!-- Set title size -->
+        <item name="android:textSize">18dp</item>
+        <!-- Set title color -->
+        <item name="android:textColor">#AB0634</item>
+    </style>
+
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:paddingLeft="5sp"
+        android:paddingRight="5sp"
+        android:paddingTop="2sp"
+        android:fitsSystemWindows="true">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:gravity="center"
+            android:orientation="horizontal" >
+            <TableRow
+                android:gravity="center"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/holo_red_dark" >
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="2sp"
+                    android:paddingRight="2sp"
+                    android:paddingTop="5dp"
+                    android:text="Nama Lengkap"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:textSize="10sp" />
+
+                <LinearLayout
+                    android:layout_width="3dp"
+                    android:layout_height="match_parent">
+
+                    <View style="@style/Divider" />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="35dp"
+                    android:layout_height="30dp"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="2sp"
+                    android:paddingRight="2sp"
+                    android:paddingTop="5dp"
+                    android:textStyle="bold"
+                    android:text="No.Hp"
+                    android:textColor="#fff"
+                    android:textSize="10sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <View style="@style/Divider" />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="65dp"
+                    android:layout_height="30dp"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="2sp"
+                    android:paddingRight="2sp"
+                    android:textStyle="bold"
+                    android:paddingTop="5dp"
+                    android:text="Email"
+                    android:textColor="#fff"
+                    android:textSize="10sp" />
+            </TableRow>
+        </TableLayout>
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>
+

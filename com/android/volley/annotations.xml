@@ -1,0 +1,5 @@
+<root>
+    <item name='com.android.volley.Request.Method'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>

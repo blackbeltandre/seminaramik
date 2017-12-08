@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">AMIK MBP</string>
+    <string name="one">HOME</string>
+    <string name="two">MATERI</string>
+    <string name="three">ABOUT</string>
+    <string name="start_application">INNOVATION IN ANDROID TECHNOLOGY</string>
+    <string name="sambutan">Selamat Datang Di Seminar INNOVATION IN ANDROID TECHNOLOGY - Amik MBP Medan</string>
+    <string name="tanggal">25 November 2017</string>
+    <string name="action_settings">Setting</string>
+    <string name="spinner_prop">--PILIH PROVINSI--</string>
+    <string name="spinner_kab">--PILIH KABUPATEN--</string>
+    <string-array name="JNS_PENGENAL">
+        <item>--PILIH TANDA PENGENAL--</item>
+        <item>KTP</item>
+        <item>SIM</item>
+        <item>PASPOR</item>
+        <item>VISA</item>
+        <item>KTM</item>
+        <item>DLL</item>
+    </string-array>
+    <string-array name="STATUS">
+        <item>--PILIH STATUS--</item>
+        <item>BOOKING</item>
+        <item>ON-PROGRESS</item>
+        <item>CHECK-OUT</item>
+    </string-array>
+    <string-array name="update_booking_to_checkout">
+        <item>--PILIH STATUS--</item>
+        <item>CHECK-OUT</item>
+    </string-array>
+    <string-array name="update_booking_to_onprogress">
+        <item>--PILIH STATUS--</item>
+        <item>ON-PROGRESS</item>
+    </string-array>
+    <string-array name="KAMAR">
+        <item>--PILIH KAMAR--</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>DLL</item>
+    </string-array>
+</resources>

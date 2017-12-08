@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:weightSum="1"
+    android:background="@color/colorWhite"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:fitsSystemWindows="true">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:paddingTop="5dp"
+        android:paddingBottom="@dimen/activity_vertical_margin">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="117dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="22dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.25"
+            android:gravity="center_horizontal"
+            android:text="AMIK MBP MEDAN - INFOTECH COMMUNITY"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#44D"
+            android:textSize="33dp"
+            android:textStyle="bold" />
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:textColorHint="#4cd"
+            android:textColor="#000"
+            android:layout_marginBottom="1dp">
+            <TextView
+                android:id="@+id/tanggal"
+                android:textColor="#000"
+                android:gravity="right"
+                android:textSize="10dp"
+                android:textColorHint="#4cd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tanggal"
+                android:hint="tanggal" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textColor="#000"
+            android:textColorHint="#4cd"
+            android:layout_marginBottom="6dp">
+            <TextView
+                android:id="@+id/sambutan"
+                android:textSize="26dp"
+                android:textColor="#675"
+                android:textColorHint="#4cd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sambutan"
+                android:hint="sambutan"/>
+        </android.support.design.widget.TextInputLayout>
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:gravity="center">
+        </LinearLayout>
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="64dp"
+                android:layout_marginBottom="5sp"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="2sp"
+                android:layout_marginTop="0sp"
+                android:gravity="center"
+                android:text="Big thanks to"
+                android:textColor="@color/colorPrimaryDark"
+                android:textColorHint="#fff"
+                android:textSize="12dp"
+                android:textStyle="bold|normal" />
+            <ImageView
+                android:layout_width="93dp"
+                android:layout_height="128dp"
+                android:layout_marginTop="7dp"
+                android:onClick="showTabWithIconsOnly"
+                android:src="@drawable/amiklogo"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColorHint="#fff"
+                android:layout_height="wrap_content"
+                android:text="And"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="12sp"
+                android:textStyle="bold|normal"
+                android:gravity="center"
+                android:layout_marginBottom="5sp"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="2sp"
+                android:layout_marginTop="0sp" />
+            <ImageView
+                android:layout_width="93dp"
+                android:layout_height="128dp"
+                android:layout_marginTop="7dp"
+                android:onClick="showTabWithIconsOnly"
+                android:src="@drawable/infotechlogo"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <TextView
+            android:gravity="center"
+            android:textColor="#675"
+            android:text="Designed with Love for AMIK MBP MEDAN - All Right Reserved."
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold|normal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="70dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </LinearLayout>
+</ScrollView>
+
+
+
