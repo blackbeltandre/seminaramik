@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tulisandigital.com.swipe"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="26" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/amiklogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/amiklogo"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/MyMaterialTheme" >
+        <activity
+            android:name="tulisandigital.com.swipe.SplashScreen"
+            android:theme="@style/SplassScreenCustom" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="tulisandigital.com.swipe.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:parentActivityName="tulisandigital.com.swipe.MainActivity"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name="tulisandigital.com.swipe.RegisterActivity"
+            android:parentActivityName="tulisandigital.com.swipe.MainActivity"
+            android:theme="@style/CustomTheme" >
+        </activity>
+        <activity
+            android:name="tulisandigital.com.swipe.DetailArticleActivity"
+            android:parentActivityName="tulisandigital.com.swipe.MainActivity"
+            android:theme="@style/CustomTheme" >
+        </activity>
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
+    </application>
+
+</manifest>
